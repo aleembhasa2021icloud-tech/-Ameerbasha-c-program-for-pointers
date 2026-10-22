@@ -1,0 +1,1 @@
+# -Ameerbasha-c-program-for-pointers
