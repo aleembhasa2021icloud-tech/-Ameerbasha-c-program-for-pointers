@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <conio.h>
+
+void main()
+{
+    int a = 25, b = 40;
+    int *p, *q;
+
+    clrscr();
+
+    p = &a;
+    q = &b;
+
+    if (*p > *q)
+        printf("Largest number = %d", *p);
+    else
+        printf("Largest number = %d", *q);
+
+    getch();
+}
